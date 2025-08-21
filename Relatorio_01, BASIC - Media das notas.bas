@@ -1,0 +1,18 @@
+INPUT "Nota 1: "; NP1
+INPUT "Nota 2: "; NP2
+
+LET MEDIA = (VAL(NP1) + VAL(NP2)) / 2
+
+IF MEDIA >= 60 THEN GOTO 100
+IF MEDIA < 30 THEN GOTO 200
+IF MEDIA >= 30 AND MEDIA < 60 THEN GOTO 300
+
+100 PRINT "Aprovado direto"
+END
+
+200 PRINT "Reprovado direto"
+END
+
+300 INPUT "Nota 3: "; NP3
+IF NP3 >= 50 THEN PRINT "Aprovado pela NP3" ELSE PRINT "Reprovado na NP3"
+END
