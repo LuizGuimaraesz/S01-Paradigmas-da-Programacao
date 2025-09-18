@@ -19,6 +19,7 @@ int main(){
         soma += nota;
     }
 
+
     float media = soma/n;
 
     cout<< "Media: " << media << endl;
@@ -27,6 +28,8 @@ int main(){
         cout<< "Aprovado" << endl;
     else
         cout<< "Reprovado" << endl;
+
+
 
 
     return 0;

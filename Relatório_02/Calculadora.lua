@@ -22,4 +22,4 @@ print("Digite o operador (+, -, * ou /):")
 local operador = io.read()
 
 local resultado = calculadora(a, b, operador)
-print("Resultado: " .. resultado)
+print("Resultado: " .. resultado)
